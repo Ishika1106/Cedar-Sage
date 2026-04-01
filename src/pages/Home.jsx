@@ -19,28 +19,28 @@ function FadeIn({ children, delay = 0, className = '' }) {
 
 const menuData = {
   starters: [
-    { name: 'Tomato Toast', desc: 'Sourdough, heirloom tomatoes, basil oil', price: '$5', badge: null },
-    { name: 'Noodle Soup', desc: 'Slow-braised broth, seasonal vegetables', price: '$5', badge: null },
-    { name: 'Pumpkin Soup', desc: 'Roasted pumpkin, crème fraîche, sage', price: '$5', badge: null },
+    { name: 'Tomato Toast', desc: 'Sourdough, heirloom tomatoes, basil oil', price: '₹5234', badge: null },
+    { name: 'Noodle Soup', desc: 'Slow-braised broth, seasonal vegetables', price: '₹6234', badge: null },
+    { name: 'Pumpkin Soup', desc: 'Roasted pumpkin, crème fraîche, sage', price: '₹7234', badge: null },
     { name: "Chef's Selection", desc: 'Ask your server for today\'s starter', price: 'MKT', badge: 'Starter of the Day' },
   ],
   breakfast: [
-    { name: 'Delicious Pancakes', desc: 'Buttermilk stack, maple syrup, seasonal berries', price: '$8', badge: null },
-    { name: 'Sweet Heaven', desc: 'French toast, caramelised banana, cream', price: '$5', badge: null },
-    { name: 'Oatmeal Spirit', desc: 'Steel-cut oats, honey, toasted almonds', price: '$5', badge: null },
-    { name: 'Avocado Smash', desc: 'Sourdough, whipped feta, poached egg', price: '$5', badge: 'Lunch of the Day' },
+    { name: 'Delicious Pancakes', desc: 'Buttermilk stack, maple syrup, seasonal berries', price: '₹8234', badge: null },
+    { name: 'Sweet Heaven', desc: 'French toast, caramelised banana, cream', price: '₹9234', badge: null },
+    { name: 'Oatmeal Spirit', desc: 'Steel-cut oats, honey, toasted almonds', price: '₹10234', badge: null },
+    { name: 'Avocado Smash', desc: 'Sourdough, whipped feta, poached egg', price: '₹11234', badge: 'Lunch of the Day' },
   ],
   dinner: [
-    { name: 'Italian Pizza', desc: 'Wood-fired, fresh mozzarella, San Marzano', price: '$8', badge: null },
-    { name: 'Sea Curry', desc: 'Tiger prawns, coconut milk, jasmine rice', price: '$5', badge: null },
-    { name: 'Vegan Burger', desc: 'Beyond patty, smoked aioli, brioche bun', price: '$5', badge: null },
-    { name: 'Noodle Bowl', desc: 'Slow-braised pork, soft-boiled egg, nori', price: '$5', badge: 'Dinner Special' },
+    { name: 'Italian Pizza', desc: 'Wood-fired, fresh mozzarella, San Marzano', price: '₹12234', badge: null },
+    { name: 'Sea Curry', desc: 'Tiger prawns, coconut milk, jasmine rice', price: '₹13234', badge: null },
+    { name: 'Vegan Burger', desc: 'Beyond patty, smoked aioli, brioche bun', price: '₹14234', badge: null },
+    { name: 'Noodle Bowl', desc: 'Slow-braised pork, soft-boiled egg, nori', price: '₹15234', badge: 'Dinner Special' },
   ],
   drinks: [
-    { name: 'Panthouse Tonic', desc: 'Gin, elderflower, cucumber, tonic', price: '$8', badge: null },
-    { name: 'Apple Breeze', desc: 'Fresh apple, ginger, sparkling water', price: '$5', badge: null },
-    { name: 'Frenchman Blitz', desc: 'Champagne, raspberry, fresh mint', price: '$5', badge: null },
-    { name: 'Cedar Cold Brew', desc: 'House cold brew, vanilla, oat milk', price: '$5', badge: null },
+    { name: 'Panthouse Tonic', desc: 'Gin, elderflower, cucumber, tonic', price: '₹25234', badge: null },
+    { name: 'Apple Breeze', desc: 'Fresh apple, ginger, sparkling water', price: '₹15234', badge: null },
+    { name: 'Frenchman Blitz', desc: 'Champagne, raspberry, fresh mint', price: '₹35234', badge: null },
+    { name: 'Cedar Cold Brew', desc: 'House cold brew, vanilla, oat milk', price: '₹45234', badge: null },
   ],
 }
 

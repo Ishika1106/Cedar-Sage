@@ -14,7 +14,76 @@ const posts = {
       "But Cedar & Sage is more than just a place to eat — it's a place to gather. We believe that dining should be an experience that brings people together, creating moments that linger long after the last bite.",
       "As we open our doors, we invite you to join us and be part of this new journey. Come explore the flavors, enjoy the atmosphere, and discover your new favorite restaurant. We look forward to welcoming you soon.",
     ]
-  }
+  },
+  'gatsby-night': {
+  title: 'Gatsby Night: An Evening of Jazz & Elegance',
+  date: 'March 13, 2026',
+  img: 'https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=1400&q=85',
+  content: [
+    "Step into the glamour of the roaring twenties with our special Gatsby Night at Cedar & Sage. This themed evening blends vintage charm, live jazz music, and a refined dining experience that transports you to another era.",
+    "The atmosphere is designed to capture the spirit of classic elegance. Soft golden lighting, art deco accents, and carefully curated music create an unforgettable ambiance from the moment you arrive.",
+    "Our chefs crafted a limited-time menu inspired by classic favorites, reimagined with modern techniques. Guests enjoyed premium steaks, handcrafted cocktails, and decadent desserts designed to complement the evening.",
+    "Live jazz performances added energy to the night, making it perfect for celebrations, date nights, and gatherings with friends.",
+    "Events like Gatsby Night reflect our commitment to creating more than just meals — we create experiences that bring people together.",
+    "Stay tuned for upcoming themed evenings as we continue to celebrate food, music, and memorable moments."
+  ]
+},
+
+'romantic-dinner': {
+  title: 'Romantic Dinner: A Candlelit Experience',
+  date: 'March 13, 2026',
+  img: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=85',
+  content: [
+    "There’s nothing quite like a beautifully prepared meal shared in a romantic setting. At Cedar & Sage, we’ve curated a special dining experience designed for couples seeking a memorable evening.",
+    "Soft candlelight, gentle background music, and intimate seating arrangements create a warm and inviting environment perfect for meaningful conversations.",
+    "Our romantic dinner menu features thoughtfully paired dishes, including fresh starters, elegant mains, and indulgent desserts made to share.",
+    "Each dish is prepared with premium ingredients and presented with attention to detail, ensuring the evening feels truly special.",
+    "Whether you're celebrating an anniversary, a proposal, or simply spending quality time together, our team is dedicated to making your evening unforgettable.",
+    "Reserve your table and let us create the perfect romantic atmosphere for your next special night."
+  ]
+},
+
+'brand-new-kitchen': {
+  title: 'Inside Our Brand New Kitchen',
+  date: 'March 13, 2026',
+  img: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=85',
+  content: [
+    "Behind every great dish is a great kitchen. At Cedar & Sage, we’ve invested in a newly designed kitchen built to support creativity, efficiency, and consistency.",
+    "The upgraded space features state-of-the-art equipment, expanded preparation areas, and improved workflow for our culinary team.",
+    "With modern cooking stations and premium tools, our chefs can experiment with new flavors while maintaining precision in every dish.",
+    "The redesign also emphasizes hygiene and sustainability, incorporating energy-efficient appliances and better waste management systems.",
+    "This new kitchen allows us to continue evolving our menu and delivering high-quality dining experiences.",
+    "We’re excited to showcase what our chefs create in this inspiring new space."
+  ]
+},
+
+'delicious-breakfast': {
+  title: 'Delicious Breakfast Now Available',
+  date: 'June 16, 2026',
+  img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&q=85',
+  content: [
+    "Mornings just got better at Cedar & Sage. We’ve expanded our breakfast offerings with a fresh selection of seasonal dishes and handcrafted beverages.",
+    "From classic favorites to modern healthy options, the menu is designed to suit every taste.",
+    "Guests can enjoy freshly baked pastries, hearty breakfast plates, and aromatic coffee brewed to perfection.",
+    "Our breakfast experience focuses on quality ingredients and a relaxed morning atmosphere.",
+    "Whether you're starting your day with a quick bite or enjoying a leisurely brunch, we’ve created the perfect setting.",
+    "Join us for breakfast and discover your new morning favorite."
+  ]
+},
+
+'vegan-burger': {
+  title: 'Introducing Our Vegan Burger',
+  date: 'January 10, 2026',
+  img: 'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=1400&q=85',
+  content: [
+    "Plant-based dining continues to grow, and we’re excited to introduce our new vegan burger at Cedar & Sage.",
+    "Made with wholesome ingredients, this burger delivers bold flavors and satisfying texture without compromising on taste.",
+    "Served with fresh toppings and house-made sauces, it’s crafted to appeal to both vegans and meat lovers alike.",
+    "Our chefs focused on creating a balanced dish that feels indulgent while remaining nutritious.",
+    "This addition reflects our commitment to offering inclusive menu options for all guests.",
+    "Come try the vegan burger and experience a delicious plant-based alternative."
+  ]
+},
 }
 
 export default function BlogPost() {

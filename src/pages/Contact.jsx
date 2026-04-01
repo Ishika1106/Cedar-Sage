@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <>
       <section className="page-hero">
-        <div className="page-hero-bg"><img src="https://images.unsplash.com/photo-1422207134147-65fb81f59e38?w=1600&q=80" alt="Contact" /></div>
+        <div className="page-hero-bg"><img src="https://cdn.prod.website-files.com/670f019f6327d6ab7a07810a/6747fa14d471bf472d9b7c9c_Terrigal_Bar_Restaurant_Bar_Contact.webp" alt="Contact" /></div>
         <div className="page-hero-overlay" />
         <div className="page-hero-content container">
           <span className="label">Reach Out</span>

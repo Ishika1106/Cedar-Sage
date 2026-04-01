@@ -41,7 +41,7 @@ export default function Book() {
                 {['Monday — Closed', 'Tue – Fri — 4pm – 8pm', 'Sat – Sun — 5pm – 11pm'].map(h => <p key={h} style={{ fontSize: '0.87rem', marginBottom: '0.35rem' }}>{h}</p>)}
               </div>
               <div style={{ display: 'flex', gap: '2.5rem', flexWrap: 'wrap' }}>
-                {[['42 Cedar Lane, New York', 'Address'], ['+1 (212) 555-0184', 'Phone'], ['hello@cedarandsage.com', 'Email']].map(([val, label]) => (
+                {[['123 / A-44 ABC Lane , New Delhi', 'Address'], ['+91-859-XXXXXXX', 'Phone'], ['cedar_sage@gmail.com', 'Email']].map(([val, label]) => (
                   <div key={label}>
                     <div style={{ fontSize: '0.58rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '0.25rem' }}>{label}</div>
                     <div style={{ fontSize: '0.83rem', color: 'var(--text-muted)' }}>{val}</div>
@@ -57,7 +57,7 @@ export default function Book() {
                   <input type="text" placeholder="Full name" required style={inputStyle} onFocus={e => e.target.style.borderColor = 'var(--gold)'} onBlur={e => e.target.style.borderColor = 'var(--border)'} />
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.3rem' }}>
-                  {[['Email', 'email', 'your@email.com'], ['Phone', 'tel', '+1 234 567 890']].map(([label, type, placeholder]) => (
+                  {[['Email', 'email', 'your@email.com'], ['Phone', 'tel', '+91-859-XXXXXXX']].map(([label, type, placeholder]) => (
                     <div key={label} style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
                       <label style={labelStyle}>{label}</label>
                       <input type={type} placeholder={placeholder} style={inputStyle} onFocus={e => e.target.style.borderColor = 'var(--gold)'} onBlur={e => e.target.style.borderColor = 'var(--border)'} />
