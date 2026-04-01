@@ -34,7 +34,7 @@ export default function Contact() {
                 We'd Love<br /><em style={{ fontStyle: 'italic', color: 'var(--gold)' }}>To Hear From You</em>
               </h2>
               <div className="divider" />
-              {[['Address', '42 Cedar Lane\nNew York, NY 10001'], ['Phone', '+1 (212) 555-0184'], ['Email', 'hello@cedarandsage.com'], ['Hours', 'Mon — Closed\nTue – Fri — 4pm – 8pm\nSat – Sun — 5pm – 11pm']].map(([label, val]) => (
+              {[['Address', '123/ A-44\nABC Lane , New Delhi'], ['Phone', '+91-859-XXXXXXX'], ['Email', 'cedar_sage@gmail.com'], ['Hours', 'Mon — Closed\nTue – Fri — 4pm – 12pm\nSat – Sun — 5pm – 1am']].map(([label, val]) => (
                 <div key={label} style={{ marginBottom: '2rem' }}>
                   <span style={{ fontSize: '0.6rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '0.5rem', display: 'block' }}>{label}</span>
                   {val.split('\n').map((line, i) => <p key={i} style={{ fontSize: '0.9rem', lineHeight: 1.7 }}>{line}</p>)}

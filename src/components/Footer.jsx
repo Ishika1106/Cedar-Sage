@@ -21,8 +21,8 @@ export default function Footer() {
           <p>Monday — Closed</p>
           <p>Tue – Fri — 4pm – 8pm</p>
           <p>Sat – Sun — 5pm – 11pm</p>
-          <p style={{ marginTop: '1.2rem', fontSize: '0.8rem', color: 'var(--text-muted)' }}>42 Cedar Lane, New York</p>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>+1 (212) 555-0184</p>
+          <p style={{ marginTop: '1.2rem', fontSize: '0.8rem', color: 'var(--text-muted)' }}>Address: 123/ A-44 ABC Lane, New Delhi</p>
+          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>+91-859-XXXXXXX</p>
         </div>
       </div>
       <div className="footer-bottom container">

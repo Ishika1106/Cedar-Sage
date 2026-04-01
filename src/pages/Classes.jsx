@@ -2,10 +2,10 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 const classes = [
-  { title: 'Asian Noodle Night', date: 'June 16, 2026 · 8:00 PM', teacher: 'Chef Marco Lin', price: '$89', img: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=700&q=80', desc: 'Discover the art of handmade noodles. Learn Noodle Soup and Sea Curry from scratch — from dough to bowl.' },
-  { title: 'Italian Pizza & Pasta', date: 'July 4, 2026 · 7:00 PM', teacher: 'Chef Sofia Bianchi', price: '$95', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=700&q=80', desc: 'Master wood-fired pizza dough and handmade pasta. Enjoy a meal with wine pairing at the end.' },
-  { title: 'Vegan Masterclass', date: 'July 18, 2026 · 6:30 PM', teacher: 'Chef Amara Osei', price: '$79', img: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=700&q=80', desc: 'From vibrant salads to our famous Vegan Burger — plant-based cooking that\'s anything but boring.' },
-  { title: 'Breakfast Workshop', date: 'Aug 3, 2026 · 9:00 AM', teacher: 'Chef Lena Hartmann', price: '$65', img: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=700&q=80', desc: 'Perfect your pancakes, avocado smash, and cold brew with our breakfast specialists.' },
+  { title: 'Asian Noodle Night', date: 'June 16, 2026 · 8:00 PM', teacher: 'Chef Marco Lin', price: '₹8900', img: 'https://images.unsplash.com/photo-1547592166-23ac45744acd?w=700&q=80', desc: 'Discover the art of handmade noodles. Learn Noodle Soup and Sea Curry from scratch — from dough to bowl.' },
+  { title: 'Italian Pizza & Pasta', date: 'July 4, 2026 · 7:00 PM', teacher: 'Chef Sofia Bianchi', price: '₹9500', img: 'https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=700&q=80', desc: 'Master wood-fired pizza dough and handmade pasta. Enjoy a meal with wine pairing at the end.' },
+  { title: 'Vegan Masterclass', date: 'July 18, 2026 · 6:30 PM', teacher: 'Chef Amara Osei', price: '₹7900', img: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=700&q=80', desc: 'From vibrant salads to our famous Vegan Burger — plant-based cooking that\'s anything but boring.' },
+  { title: 'Breakfast Workshop', date: 'Aug 3, 2026 · 9:00 AM', teacher: 'Chef Lena Hartmann', price: '₹6500', img: 'https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=700&q=80', desc: 'Perfect your pancakes, avocado smash, and cold brew with our breakfast specialists.' },
 ]
 
 export default function Classes() {

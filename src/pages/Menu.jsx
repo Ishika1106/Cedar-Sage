@@ -3,28 +3,28 @@ import { Link } from 'react-router-dom'
 
 const sections = [
   { title: 'Starters', items: [
-    { name: 'Tomato Toast', desc: 'Sourdough, heirloom tomatoes, basil oil', price: '$5.00' },
-    { name: 'Noodle Soup', desc: 'Slow-braised broth, seasonal vegetables', price: '$5.00' },
-    { name: 'Pumpkin Soup', desc: 'Roasted pumpkin, crème fraîche, sage', price: '$5.00' },
+    { name: 'Tomato Toast', desc: 'Sourdough, heirloom tomatoes, basil oil', price: '₹5234.00' },
+    { name: 'Noodle Soup', desc: 'Slow-braised broth, seasonal vegetables', price: '₹6234.00' },
+    { name: 'Pumpkin Soup', desc: 'Roasted pumpkin, crème fraîche, sage', price: '₹7234.00' },
     { name: "Chef's Selection", desc: 'Ask your server', price: 'MKT', badge: 'Starter of the Day' },
   ]},
   { title: 'Breakfast', items: [
-    { name: 'Delicious Pancakes', desc: 'Buttermilk stack, maple syrup, berries', price: '$8.00' },
-    { name: 'Sweet Heaven', desc: 'French toast, caramelised banana, cream', price: '$5.00' },
-    { name: 'Oatmeal Spirit', desc: 'Steel-cut oats, honey, toasted almonds', price: '$5.00' },
-    { name: 'Avocado Smash', desc: 'Sourdough, whipped feta, poached egg', price: '$5.00', badge: 'Lunch of the Day' },
+    { name: 'Delicious Pancakes', desc: 'Buttermilk stack, maple syrup, berries', price: '₹8234.00' },
+    { name: 'Sweet Heaven', desc: 'French toast, caramelised banana, cream', price: '₹9234.00' },
+    { name: 'Oatmeal Spirit', desc: 'Steel-cut oats, honey, toasted almonds', price: '₹10234.00' },
+    { name: 'Avocado Smash', desc: 'Sourdough, whipped feta, poached egg', price: '₹11234 .00', badge: 'Lunch of the Day' },
   ]},
   { title: 'Dinner', items: [
-    { name: 'Italian Pizza', desc: 'Wood-fired, fresh mozzarella, San Marzano', price: '$8.00' },
-    { name: 'Sea Curry', desc: 'Tiger prawns, coconut milk, jasmine rice', price: '$5.00' },
-    { name: 'Vegan Burger', desc: 'Beyond patty, smoked aioli, brioche bun', price: '$5.00' },
-    { name: 'Noodle Bowl', desc: 'Slow-braised pork, soft-boiled egg, nori', price: '$5.00', badge: 'Dinner Special' },
+    { name: 'Italian Pizza', desc: 'Wood-fired, fresh mozzarella, San Marzano', price: '₹12234.00' },
+    { name: 'Sea Curry', desc: 'Tiger prawns, coconut milk, jasmine rice', price: '₹13234.00' },
+    { name: 'Vegan Burger', desc: 'Beyond patty, smoked aioli, brioche bun', price: '₹14234.00' },
+    { name: 'Noodle Bowl', desc: 'Slow-braised pork, soft-boiled egg, nori', price: '₹15234.00', badge: 'Dinner Special' },
   ]},
   { title: 'Drinks', items: [
-    { name: 'Panthouse Tonic', desc: 'Gin, elderflower, cucumber, tonic', price: '$8.00' },
-    { name: 'Apple Breeze', desc: 'Fresh apple, ginger, sparkling water', price: '$5.00' },
-    { name: 'Frenchman Blitz', desc: 'Champagne, raspberry, fresh mint', price: '$5.00' },
-    { name: 'Cedar Cold Brew', desc: 'House cold brew, vanilla, oat milk', price: '$5.00' },
+    { name: 'Panthouse Tonic', desc: 'Gin, elderflower, cucumber, tonic', price: '₹16234.00' },
+    { name: 'Apple Breeze', desc: 'Fresh apple, ginger, sparkling water', price: '₹15234.00' },
+    { name: 'Frenchman Blitz', desc: 'Champagne, raspberry, fresh mint', price: '₹25234.00' },
+    { name: 'Cedar Cold Brew', desc: 'House cold brew, vanilla, oat milk', price: '₹35234.00' },
   ]},
 ]
 
