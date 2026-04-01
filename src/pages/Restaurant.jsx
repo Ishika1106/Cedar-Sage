@@ -1,13 +1,21 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+import {
+  Leaf,
+  Wine,
+  ChefHat,
+  Lamp,
+  Globe,
+  PartyPopper
+} from "lucide-react";
 
 const features = [
-  { icon: '🌿', title: 'Seasonal Ingredients', desc: 'We source the finest seasonal produce from local farms — every dish bursts with natural flavor.' },
-  { icon: '🍷', title: 'Curated Wine List', desc: 'Our sommelier-selected wine list pairs perfectly with every course on the menu.' },
-  { icon: '👨‍🍳', title: 'Expert Chefs', desc: 'Our team brings decades of experience from Michelin-starred kitchens across the globe.' },
-  { icon: '🕯️', title: 'Intimate Atmosphere', desc: 'Warm lighting, natural textures, and thoughtful design create a truly special dining experience.' },
-  { icon: '🌍', title: 'Sustainable Sourcing', desc: 'Committed to sustainability — ethical suppliers and zero-waste kitchen practices at every step.' },
-  { icon: '🎉', title: 'Private Events', desc: 'Host your special occasion in our private dining room, tailored entirely to your vision.' },
+  { icon: Leaf, title: 'Seasonal Ingredients', desc: 'We source the finest seasonal produce from local farms — every dish bursts with natural flavor.' },
+  { icon: Wine, title: 'Curated Wine List', desc: 'Our sommelier-selected wine list pairs perfectly with every course on the menu.' },
+  { icon: ChefHat, title: 'Expert Chefs', desc: 'Our team brings decades of experience from Michelin-starred kitchens across the globe.' },
+  { icon: Lamp, title: 'Intimate Atmosphere', desc: 'Warm lighting, natural textures, and thoughtful design create a truly special dining experience.' },
+  { icon: Globe, title: 'Sustainable Sourcing', desc: 'Committed to sustainability — ethical suppliers and zero-waste kitchen practices at every step.' },
+  { icon: PartyPopper, title: 'Private Events', desc: 'Host your special occasion in our private dining room, tailored entirely to your vision.' },
 ]
 
 export default function Restaurant() {
@@ -54,15 +62,20 @@ export default function Restaurant() {
             <h2 className="section-title center" style={{ marginBottom: '4rem' }}>The <em>Experience</em></h2>
           </motion.div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2px', background: 'var(--border)' }}>
-            {features.map((f, i) => (
-              <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.07 }}
-                whileHover={{ background: 'var(--dark-surface)' }}
-                style={{ background: 'var(--dark)', padding: '3rem 2.5rem', cursor: 'default', transition: 'background 0.3s' }}>
-                <div style={{ fontSize: '1.8rem', marginBottom: '1.2rem' }}>{f.icon}</div>
-                <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.35rem', fontWeight: 400, color: 'var(--cream)', marginBottom: '0.8rem' }}>{f.title}</h3>
-                <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.75 }}>{f.desc}</p>
-              </motion.div>
-            ))}
+            {features.map((f, i) => {
+              const Icon = f.icon;
+              return (
+                <motion.div key={i} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.07 }}
+                  whileHover={{ background: 'var(--dark-surface)' }}
+                  style={{ background: 'var(--dark)', padding: '3rem 2.5rem', cursor: 'default', transition: 'background 0.3s' }}>
+                  <div style={{ marginBottom: '1.2rem', color: 'var(--gold)' }}>
+                    <Icon size={30} strokeWidth={1.5} />
+                  </div>
+                  <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.35rem', fontWeight: 400, color: 'var(--cream)', marginBottom: '0.8rem' }}>{f.title}</h3>
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', lineHeight: 1.75 }}>{f.desc}</p>
+                </motion.div>
+              )
+            })}
           </div>
         </div>
       </section>
