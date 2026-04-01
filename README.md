@@ -1,16 +1,61 @@
-# React + Vite
+# Cedar Sage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cedar Sage is a responsive restaurant frontend built using React and Vite. The project focuses on a clean user interface, reusable component architecture, and scalable structure for future backend integration. It includes key sections such as restaurant overview, reservation interface, cooking classes, and a blog page.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive restaurant landing and overview page
+- Reservation system user interface
+- Cooking classes section
+- Blog page for articles and updates
+- Reusable component-based architecture
+- Modular navigation structure
+- Mobile and desktop optimized layouts
+- Scalable folder structure for backend integration
+- Deployment-ready frontend supporting dynamic content expansion
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository
+
+```bash
+git clone https://github.com/Ishika1106/Cedar-Sage.git
+```
+
+Navigate to the project folder
+
+```bash
+cd Cedar-Sage
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Open in browser
+
+```
+http://localhost:5173/
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
